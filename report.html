@@ -19505,7 +19505,7 @@ QmCC
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>回答:</strong>
-75，154，65，66, 75。应该移除，在多于一个特征下是异常数据点，会影响数据主成分分析的结果。</p>
+75，154，65，66, 75。应该移除，在多于一个特征下是异常数据点，如果不删除可能会导致在异常点附近出现新的聚类，导致边界范围的某些正常点也被划入异常点形成的聚类中，影响数据的分析结果以及决定系数。</p>
 
 </div>
 </div>
